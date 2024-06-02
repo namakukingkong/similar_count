@@ -2,31 +2,7 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/similar_count`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'similar_count'
-```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install similar_count
-
 ## Usage
-```bash
-$ bundle init
-$ bundle add similar_count
-$ bundle install
-$ bundle exec irb 
-```
 ```bash
 $ mkdir "file_test"
 $ echo -n "qwerty" > file_test/file_1.txt
@@ -37,6 +13,11 @@ $ echo -n "asdf" > file_test/file_5.txt
 ```
 
 ```bash
+$ bundle init
+$ bundle add similar_count
+$ bundle install
+$ bundle exec irb 
+
 irb(main):001:0> require('similar_count') # true
 irb(main):002:0> path = "file_test" 
 irb(main):003:0> result = SimilarCount::Scanner.scan_directory(path) # {:text=>"qwerty 3", :content=>"qwerty", :max_count=>3, :max_hash=>"65e84be33532fb784c48129675f9eff3a682b27168c0ea744b2cf58"
