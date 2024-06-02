@@ -56,9 +56,9 @@ PLATFORMS
 
 DEPENDENCIES
   rake (~> 13.0)
-  rspec
-  rubocop
-  rubocop-performance
+  rspec (~> 3.0)
+  rubocop (~> 0.93.1)
+  rubocop-performance (~> 1.9.2)
   similar_count!
 
 BUNDLED WITH

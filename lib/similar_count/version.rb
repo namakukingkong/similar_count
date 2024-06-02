@@ -2,5 +2,5 @@
 
 module SimilarCount
   VERSION = '0.1.0'
-  private_constant :VERSION
+  public_constant :VERSION
 end
